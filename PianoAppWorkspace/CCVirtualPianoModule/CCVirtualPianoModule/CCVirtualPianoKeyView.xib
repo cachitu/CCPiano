@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CCVirtualPianoKeyView" customModule="CCVirtualPianoModule" customModuleProvider="target">
+            <connections>
+                <outlet property="butFlat" destination="8bN-zV-lfk" id="uYv-wj-8To"/>
+                <outlet property="butMain" destination="7Od-Wb-9EE" id="CmH-lt-tMB"/>
+                <outlet property="butSharp" destination="Hla-DO-yul" id="lTX-YW-6Uk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="66" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Od-Wb-9EE" userLabel="Main">
+                    <rect key="frame" x="0.0" y="0.0" width="66" height="200"/>
+                    <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="12"/>
+                    <state key="normal" title="C">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="butMain:" destination="-1" eventType="touchUpInside" id="diB-aZ-e89"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bN-zV-lfk" userLabel="Flat">
+                    <rect key="frame" x="-5" y="0.0" width="26.5" height="120"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                    <state key="normal" title="b">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="butFlat:" destination="-1" eventType="touchUpInside" id="Uhu-Dm-nXL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hla-DO-yul" userLabel="Sharp">
+                    <rect key="frame" x="44.5" y="0.0" width="26.5" height="120"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                    <state key="normal" title="#">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="butSharp:" destination="-1" eventType="touchUpInside" id="oOu-Ac-CQT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8bN-zV-lfk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.4" id="3AN-aW-iPN"/>
+                <constraint firstItem="Hla-DO-yul" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="42g-ye-AAT"/>
+                <constraint firstItem="7Od-Wb-9EE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6Vs-eO-lqF"/>
+                <constraint firstAttribute="bottom" secondItem="7Od-Wb-9EE" secondAttribute="bottom" id="P93-0U-d0C"/>
+                <constraint firstItem="7Od-Wb-9EE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ucd-QF-g7Z"/>
+                <constraint firstItem="Hla-DO-yul" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.4" id="ZiX-UW-vLf"/>
+                <constraint firstAttribute="trailing" secondItem="7Od-Wb-9EE" secondAttribute="trailing" id="bKU-e1-Gv7"/>
+                <constraint firstItem="Hla-DO-yul" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.6" id="bqI-XG-rwd"/>
+                <constraint firstItem="8bN-zV-lfk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dEq-gL-OV1"/>
+                <constraint firstItem="8bN-zV-lfk" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.6" id="e6R-ea-IXN"/>
+                <constraint firstAttribute="trailing" secondItem="Hla-DO-yul" secondAttribute="trailing" constant="-5" id="max-p0-3qJ"/>
+                <constraint firstItem="8bN-zV-lfk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-5" id="zY4-FQ-QQW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CCOctavePianoKeyboard" customModule="CCVirtualPianoModule" customModuleProvider="target">
+            <connections>
+                <outlet property="noteA" destination="yiT-1D-5hq" id="R6R-T3-1Kg"/>
+                <outlet property="noteB" destination="QVA-1q-hf9" id="1CK-KA-0d1"/>
+                <outlet property="noteC" destination="zRt-Ok-HZN" id="Eng-ll-eij"/>
+                <outlet property="noteD" destination="kPh-2L-pVm" id="NnN-95-uhg"/>
+                <outlet property="noteE" destination="AxI-Lh-YsR" id="lOd-uD-jeH"/>
+                <outlet property="noteF" destination="FPl-zc-MBO" id="j5W-no-c9r"/>
+                <outlet property="noteG" destination="zyn-sc-QhM" id="aH3-yz-ug1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="EvK-vh-lyS">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zRt-Ok-HZN" customClass="CCVirtualPianoKeyView" customModule="CCVirtualPianoModule" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="43" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="keyString" value="C"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="octaveValue">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kPh-2L-pVm" customClass="CCVirtualPianoKeyView" customModule="CCVirtualPianoModule" customModuleProvider="target">
+                            <rect key="frame" x="43" y="0.0" width="42.5" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="keyString" value="D"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="octaveValue">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AxI-Lh-YsR" customClass="CCVirtualPianoKeyView" customModule="CCVirtualPianoModule" customModuleProvider="target">
+                            <rect key="frame" x="85.5" y="0.0" width="43" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="keyString" value="E"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="octaveValue">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FPl-zc-MBO" customClass="CCVirtualPianoKeyView" customModule="CCVirtualPianoModule" customModuleProvider="target">
+                            <rect key="frame" x="128.5" y="0.0" width="43" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="keyString" value="F"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="octaveValue">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zyn-sc-QhM" customClass="CCVirtualPianoKeyView" customModule="CCVirtualPianoModule" customModuleProvider="target">
+                            <rect key="frame" x="171.5" y="0.0" width="43" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="keyString" value="G"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="octaveValue">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yiT-1D-5hq" customClass="CCVirtualPianoKeyView" customModule="CCVirtualPianoModule" customModuleProvider="target">
+                            <rect key="frame" x="214.5" y="0.0" width="42.5" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="keyString" value="A"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="octaveValue">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QVA-1q-hf9" customClass="CCVirtualPianoKeyView" customModule="CCVirtualPianoModule" customModuleProvider="target">
+                            <rect key="frame" x="257" y="0.0" width="43" height="200"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="keyString" value="B"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="octaveValue">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="EvK-vh-lyS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4iP-Mn-0B0"/>
+                <constraint firstAttribute="bottom" secondItem="EvK-vh-lyS" secondAttribute="bottom" id="A8W-Aw-zff"/>
+                <constraint firstAttribute="trailing" secondItem="EvK-vh-lyS" secondAttribute="trailing" id="XTE-04-Bx4"/>
+                <constraint firstItem="EvK-vh-lyS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="y4z-DM-lE3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE23DC811EDCA6F000579C7F /* CCPianoKeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23DC801EDCA6F000579C7F /* CCPianoKeyCell.swift */; };
+		EE23DC831EDCAD0400579C7F /* CCNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23DC821EDCAD0400579C7F /* CCNoteCell.swift */; };
+		EE2E7B891EDAA46D00F78882 /* CCMusicScoreModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2E7B881EDAA46D00F78882 /* CCMusicScoreModule.framework */; };
+		EE2E7B8A1EDAA46D00F78882 /* CCMusicScoreModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE2E7B881EDAA46D00F78882 /* CCMusicScoreModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE5F70C11EE18D9600937DC7 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5F70C01EE18D9600937DC7 /* iPhone.storyboard */; };
+		EE8E78961ED984410037E8C5 /* CCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E78951ED984410037E8C5 /* CCAppDelegate.swift */; };
+		EE8E78981ED984410037E8C5 /* CCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E78971ED984410037E8C5 /* CCViewController.swift */; };
+		EE8E789B1ED984410037E8C5 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8E78991ED984410037E8C5 /* iPad.storyboard */; };
+		EE8E789D1ED984410037E8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8E789C1ED984410037E8C5 /* Assets.xcassets */; };
+		EE8E78A01ED984410037E8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8E789E1ED984410037E8C5 /* LaunchScreen.storyboard */; };
+		EE8E78E11ED985C70037E8C5 /* CCMidiModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8E78E01ED985C70037E8C5 /* CCMidiModule.framework */; };
+		EE8E78E21ED985C70037E8C5 /* CCMidiModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE8E78E01ED985C70037E8C5 /* CCMidiModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE8E78FF1ED98FDC0037E8C5 /* CCVirtualPianoModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8E78FE1ED98FDC0037E8C5 /* CCVirtualPianoModule.framework */; };
+		EE8E79001ED98FDC0037E8C5 /* CCVirtualPianoModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE8E78FE1ED98FDC0037E8C5 /* CCVirtualPianoModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE996EB11EDD252C00E59BE8 /* CCPianoUtilsModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE996EB01EDD252C00E59BE8 /* CCPianoUtilsModule.framework */; };
+		EE996EB21EDD252C00E59BE8 /* CCPianoUtilsModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE996EB01EDD252C00E59BE8 /* CCPianoUtilsModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE9B5A4121DD19E90007A9D1 /* FluidR3 GM2-2.SF2 in Resources */ = {isa = PBXBuildFile; fileRef = EE9B5A4021DD19C40007A9D1 /* FluidR3 GM2-2.SF2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE8E78E31ED985C70037E8C5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EE996EB21EDD252C00E59BE8 /* CCPianoUtilsModule.framework in Embed Frameworks */,
+				EE8E79001ED98FDC0037E8C5 /* CCVirtualPianoModule.framework in Embed Frameworks */,
+				EE8E78E21ED985C70037E8C5 /* CCMidiModule.framework in Embed Frameworks */,
+				EE2E7B8A1EDAA46D00F78882 /* CCMusicScoreModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE23DC801EDCA6F000579C7F /* CCPianoKeyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCPianoKeyCell.swift; sourceTree = "<group>"; };
+		EE23DC821EDCAD0400579C7F /* CCNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCNoteCell.swift; sourceTree = "<group>"; };
+		EE2E7B881EDAA46D00F78882 /* CCMusicScoreModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCMusicScoreModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5F70C01EE18D9600937DC7 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		EE8E78921ED984410037E8C5 /* PainoAppBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainoAppBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8E78951ED984410037E8C5 /* CCAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCAppDelegate.swift; sourceTree = "<group>"; };
+		EE8E78971ED984410037E8C5 /* CCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCViewController.swift; sourceTree = "<group>"; };
+		EE8E789A1ED984410037E8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPad.storyboard; sourceTree = "<group>"; };
+		EE8E789C1ED984410037E8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8E789F1ED984410037E8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8E78A11ED984410037E8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8E78E01ED985C70037E8C5 /* CCMidiModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCMidiModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8E78FE1ED98FDC0037E8C5 /* CCVirtualPianoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCVirtualPianoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE996EB01EDD252C00E59BE8 /* CCPianoUtilsModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCPianoUtilsModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9B5A4021DD19C40007A9D1 /* FluidR3 GM2-2.SF2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FluidR3 GM2-2.SF2"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8E788F1ED984410037E8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE996EB11EDD252C00E59BE8 /* CCPianoUtilsModule.framework in Frameworks */,
+				EE8E78FF1ED98FDC0037E8C5 /* CCVirtualPianoModule.framework in Frameworks */,
+				EE8E78E11ED985C70037E8C5 /* CCMidiModule.framework in Frameworks */,
+				EE2E7B891EDAA46D00F78882 /* CCMusicScoreModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8E78891ED984410037E8C5 = {
+			isa = PBXGroup;
+			children = (
+				EE8E78941ED984410037E8C5 /* PainoAppBase */,
+				EE8E78931ED984410037E8C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8E78931ED984410037E8C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E78921ED984410037E8C5 /* PainoAppBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8E78941ED984410037E8C5 /* PainoAppBase */ = {
+			isa = PBXGroup;
+			children = (
+				EE9B5A4021DD19C40007A9D1 /* FluidR3 GM2-2.SF2 */,
+				EE8E78951ED984410037E8C5 /* CCAppDelegate.swift */,
+				EE8E78971ED984410037E8C5 /* CCViewController.swift */,
+				EE23DC801EDCA6F000579C7F /* CCPianoKeyCell.swift */,
+				EE23DC821EDCAD0400579C7F /* CCNoteCell.swift */,
+				EE8E78991ED984410037E8C5 /* iPad.storyboard */,
+				EE5F70C01EE18D9600937DC7 /* iPhone.storyboard */,
+				EE8E789C1ED984410037E8C5 /* Assets.xcassets */,
+				EE8E789E1ED984410037E8C5 /* LaunchScreen.storyboard */,
+				EE8E78A11ED984410037E8C5 /* Info.plist */,
+				EE8E78E61ED986310037E8C5 /* Frameworks */,
+			);
+			path = PainoAppBase;
+			sourceTree = "<group>";
+		};
+		EE8E78E61ED986310037E8C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE996EB01EDD252C00E59BE8 /* CCPianoUtilsModule.framework */,
+				EE2E7B881EDAA46D00F78882 /* CCMusicScoreModule.framework */,
+				EE8E78FE1ED98FDC0037E8C5 /* CCVirtualPianoModule.framework */,
+				EE8E78E01ED985C70037E8C5 /* CCMidiModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8E78911ED984410037E8C5 /* PainoAppBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8E78A41ED984410037E8C5 /* Build configuration list for PBXNativeTarget "PainoAppBase" */;
+			buildPhases = (
+				EE8E788E1ED984410037E8C5 /* Sources */,
+				EE8E788F1ED984410037E8C5 /* Frameworks */,
+				EE8E78901ED984410037E8C5 /* Resources */,
+				EE8E78E31ED985C70037E8C5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PainoAppBase;
+			productName = PainoAppBase;
+			productReference = EE8E78921ED984410037E8C5 /* PainoAppBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8E788A1ED984410037E8C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Calin Chitu";
+				TargetAttributes = {
+					EE8E78911ED984410037E8C5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LCQ88G23A6;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EE8E788D1ED984410037E8C5 /* Build configuration list for PBXProject "PainoAppBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8E78891ED984410037E8C5;
+			productRefGroup = EE8E78931ED984410037E8C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8E78911ED984410037E8C5 /* PainoAppBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8E78901ED984410037E8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8E78A01ED984410037E8C5 /* LaunchScreen.storyboard in Resources */,
+				EE8E789D1ED984410037E8C5 /* Assets.xcassets in Resources */,
+				EE9B5A4121DD19E90007A9D1 /* FluidR3 GM2-2.SF2 in Resources */,
+				EE8E789B1ED984410037E8C5 /* iPad.storyboard in Resources */,
+				EE5F70C11EE18D9600937DC7 /* iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8E788E1ED984410037E8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8E78981ED984410037E8C5 /* CCViewController.swift in Sources */,
+				EE8E78961ED984410037E8C5 /* CCAppDelegate.swift in Sources */,
+				EE23DC811EDCA6F000579C7F /* CCPianoKeyCell.swift in Sources */,
+				EE23DC831EDCAD0400579C7F /* CCNoteCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE8E78991ED984410037E8C5 /* iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8E789A1ED984410037E8C5 /* Base */,
+			);
+			name = iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8E789E1ED984410037E8C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8E789F1ED984410037E8C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8E78A21ED984410037E8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8E78A31ED984410037E8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8E78A51ED984410037E8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCQ88G23A6;
+				INFOPLIST_FILE = PainoAppBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kytzu.PainoAppBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8E78A61ED984410037E8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCQ88G23A6;
+				INFOPLIST_FILE = PainoAppBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kytzu.PainoAppBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8E788D1ED984410037E8C5 /* Build configuration list for PBXProject "PainoAppBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8E78A21ED984410037E8C5 /* Debug */,
+				EE8E78A31ED984410037E8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8E78A41ED984410037E8C5 /* Build configuration list for PBXNativeTarget "PainoAppBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8E78A51ED984410037E8C5 /* Debug */,
+				EE8E78A61ED984410037E8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8E788A1ED984410037E8C5 /* Project object */;
+}
